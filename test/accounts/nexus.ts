@@ -1,6 +1,5 @@
 import hre from "hardhat";
 import {
-  concatHex,
   encodeFunctionData,
   encodePacked,
   getAbiItem,
@@ -116,14 +115,23 @@ async function accountFixture(): Promise<AccountDataV07> {
       }
     },
 
-    encodeRuntimeExecute: async (target, value, data) => {
+    encodeRuntimeExecute: async (
+      target,
+      value,
+      data,
+      owner,
+      accountAddress,
+    ) => {
+      if (!accountAddress) {
+        throw new Error("Account address is required");
+      }
       try {
         const executionCalldata = encodePacked(
           ["address", "uint256", "bytes"],
           [target, value, data],
         );
 
-        const defaultMode = "0x" + "00".repeat(32);
+        const defaultMode = toHex(0, {size: 32});
         console.log("Executing encodeRuntimeExecute with:", {
           zeroHash,
           executionCalldata,
@@ -132,11 +140,11 @@ async function accountFixture(): Promise<AccountDataV07> {
         return encodeFunctionData({
           abi: [
             getAbiItem({
-              abi: NEXUS_ARTIFACTS.Nexus.abi,
+              abi: NEXUS_ARTIFACTS.K1Validator.abi,
               name: "execute",
             }),
           ],
-          args: [defaultMode, executionCalldata],
+          args: [accountAddress, defaultMode, executionCalldata],
         });
       } catch (error) {
         console.error("Error encoding RuntimeExecute:", error);

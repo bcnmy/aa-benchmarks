@@ -29,6 +29,7 @@ import {UNISWAP_ARTIFACTS} from "./artifacts/uniswap";
 import {getL1GasUsed} from "./utils/fees";
 import {wrappedHandleOps} from "./utils/userOp";
 import {GasMetrics, collectResult, writeResults} from "./utils/writer";
+import {NEXUS_ARTIFACTS} from "./artifacts/nexus";
 
 const NATIVE_INITIAL_BALANCE = parseEther("10000");
 const NATIVE_TRANSFER_AMOUNT = parseEther("0.5");
@@ -621,10 +622,19 @@ describe("Benchmark", function () {
             accountAddress,
           );
 
-          hash = await owner.sendTransaction({
-            to: accountAddress,
-            data,
-          });
+          console.log("Account Name", name);
+          if (name !== "Nexus") {
+            hash = await owner.sendTransaction({
+              to: accountAddress,
+              data,
+            });
+          } else {
+            console.log("Nexus");
+            hash = await owner.sendTransaction({
+              to: NEXUS_ARTIFACTS.K1Validator.address,
+              data,
+            });
+          }
 
           // Check that the transfer was successful
           const aliceBalance = await publicClient.getBalance({
