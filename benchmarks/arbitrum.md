@@ -10,36 +10,36 @@
 
 #### Run parameters
 
-| Parameter            | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
-| :------------------- | ------------------: | --------------------------: |
-| Gas price (gwei)     |              `0.01` |               `0.010018532` |
-| L1 base fee (gwei)   |                 `-` |                         `-` |
-| L1 base fee scalar   |                 `-` |                         `-` |
-| Blob base fee (wei)  |                 `-` |                         `-` |
-| Blob base fee scalar |                 `-` |                         `-` |
-| ETH price (USD)      |           `$2948.6` |                         `-` |
+| Parameter            | Latest fees snapshot | 2024-03-31 (high blob fees) |
+| :------------------- | -------------------: | --------------------------: |
+| Gas price (gwei)     |               `0.01` |               `0.010018532` |
+| L1 base fee (gwei)   |                  `-` |                         `-` |
+| L1 base fee scalar   |                  `-` |                         `-` |
+| Blob base fee (wei)  |                  `-` |                         `-` |
+| Blob base fee scalar |                  `-` |                         `-` |
+| ETH price (USD)      |            `$2948.6` |                         `-` |
 
 #### User Operation: Account creation
 
 ##### Total fee (USD)
 
-|                           | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
-| :------------------------ | ------------------: | --------------------------: |
-| Modular Account           |           `$0.0253` |                   `$0.0254` |
-| Biconomy v2               |           `$0.0097` |                   `$0.0097` |
-| Kernel v2.1               |           `$0.0087` |                   `$0.0088` |
-| Safe                      |           `$0.0128` |                   `$0.0129` |
-| Simple Account            |           `$0.0088` |                   `$0.0088` |
-| Light Account             |           `$0.0092` |                   `$0.0092` |
-| Light Account v2          |           `$0.0079` |                   `$0.0079` |
-| Multi-Owner Light Account |           `$0.0086` |                   `$0.0087` |
-| Coinbase Smart Wallet     |           `$0.0094` |                   `$0.0094` |
-| Nexus                     |           `$0.0101` |                   `$0.0101` |
+|                           | Latest fees snapshot | 2024-03-31 (high blob fees) |
+| :------------------------ | -------------------: | --------------------------: |
+| Modular Account           |            `$0.0253` |                   `$0.0254` |
+| Biconomy v2               |            `$0.0097` |                   `$0.0097` |
+| Kernel v2.1               |            `$0.0087` |                   `$0.0088` |
+| Safe                      |            `$0.0128` |                   `$0.0129` |
+| Simple Account            |            `$0.0088` |                   `$0.0088` |
+| Light Account             |            `$0.0092` |                   `$0.0092` |
+| Light Account v2          |            `$0.0079` |                   `$0.0079` |
+| Multi-Owner Light Account |            `$0.0086` |                   `$0.0087` |
+| Coinbase Smart Wallet     |            `$0.0094` |                   `$0.0094` |
+| Nexus                     |            `$0.0101` |                   `$0.0101` |
 
 <details>
 <summary><b>Details</b></summary>
 
-##### 2024-05-14 (latest)
+##### Latest fees snapshot
 
 |                           | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
 | :------------------------ | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
@@ -75,23 +75,23 @@
 
 ##### Total fee (USD)
 
-|                           | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
-| :------------------------ | ------------------: | --------------------------: |
-| Modular Account           |           `$0.0049` |                   `$0.0049` |
-| Biconomy v2               |           `$0.0048` |                   `$0.0048` |
-| Kernel v2.1               |           `$0.0048` |                   `$0.0048` |
-| Safe                      |           `$0.0052` |                   `$0.0052` |
-| Simple Account            |           `$0.0045` |                   `$0.0045` |
-| Light Account             |           `$0.0045` |                   `$0.0045` |
-| Light Account v2          |           `$0.0045` |                   `$0.0045` |
-| Multi-Owner Light Account |           `$0.0045` |                   `$0.0045` |
-| Coinbase Smart Wallet     |           `$0.0046` |                   `$0.0046` |
-| Nexus                     |           `$0.0048` |                   `$0.0049` |
+|                           | Latest fees snapshot | 2024-03-31 (high blob fees) |
+| :------------------------ | -------------------: | --------------------------: |
+| Modular Account           |            `$0.0049` |                   `$0.0049` |
+| Biconomy v2               |            `$0.0048` |                   `$0.0048` |
+| Kernel v2.1               |            `$0.0048` |                   `$0.0048` |
+| Safe                      |            `$0.0052` |                   `$0.0052` |
+| Simple Account            |            `$0.0045` |                   `$0.0045` |
+| Light Account             |            `$0.0045` |                   `$0.0045` |
+| Light Account v2          |            `$0.0045` |                   `$0.0045` |
+| Multi-Owner Light Account |            `$0.0045` |                   `$0.0045` |
+| Coinbase Smart Wallet     |            `$0.0046` |                   `$0.0046` |
+| Nexus                     |            `$0.0048` |                   `$0.0049` |
 
 <details>
 <summary><b>Details</b></summary>
 
-##### 2024-05-14 (latest)
+##### Latest fees snapshot
 
 |                           | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
 | :------------------------ | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
@@ -127,23 +127,23 @@
 
 ##### Total fee (USD)
 
-|                           | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
-| :------------------------ | ------------------: | --------------------------: |
-| Modular Account           |           `$0.0056` |                   `$0.0056` |
-| Biconomy v2               |           `$0.0055` |                   `$0.0055` |
-| Kernel v2.1               |           `$0.0055` |                   `$0.0055` |
-| Safe                      |           `$0.0059` |                   `$0.0059` |
-| Simple Account            |           `$0.0052` |                   `$0.0052` |
-| Light Account             |           `$0.0052` |                   `$0.0052` |
-| Light Account v2          |           `$0.0052` |                   `$0.0052` |
-| Multi-Owner Light Account |           `$0.0052` |                   `$0.0052` |
-| Coinbase Smart Wallet     |           `$0.0053` |                   `$0.0053` |
-| Nexus                     |           `$0.0055` |                   `$0.0056` |
+|                           | Latest fees snapshot | 2024-03-31 (high blob fees) |
+| :------------------------ | -------------------: | --------------------------: |
+| Modular Account           |            `$0.0056` |                   `$0.0056` |
+| Biconomy v2               |            `$0.0055` |                   `$0.0055` |
+| Kernel v2.1               |            `$0.0055` |                   `$0.0055` |
+| Safe                      |            `$0.0059` |                   `$0.0059` |
+| Simple Account            |            `$0.0052` |                   `$0.0052` |
+| Light Account             |            `$0.0052` |                   `$0.0052` |
+| Light Account v2          |            `$0.0052` |                   `$0.0052` |
+| Multi-Owner Light Account |            `$0.0052` |                   `$0.0052` |
+| Coinbase Smart Wallet     |            `$0.0053` |                   `$0.0053` |
+| Nexus                     |            `$0.0055` |                   `$0.0056` |
 
 <details>
 <summary><b>Details</b></summary>
 
-##### 2024-05-14 (latest)
+##### Latest fees snapshot
 
 |                           | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
 | :------------------------ | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
@@ -179,23 +179,23 @@
 
 ##### Total fee (USD)
 
-|                           | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
-| :------------------------ | ------------------: | --------------------------: |
-| Modular Account           |           `$0.0062` |                   `$0.0062` |
-| Biconomy v2               |           `$0.0060` |                   `$0.0061` |
-| Kernel v2.1               |           `$0.0061` |                   `$0.0061` |
-| Safe                      |           `$0.0065` |                   `$0.0065` |
-| Simple Account            |           `$0.0058` |                   `$0.0058` |
-| Light Account             |           `$0.0058` |                   `$0.0058` |
-| Light Account v2          |           `$0.0057` |                   `$0.0057` |
-| Multi-Owner Light Account |           `$0.0057` |                   `$0.0057` |
-| Coinbase Smart Wallet     |           `$0.0059` |                   `$0.0059` |
-| Nexus                     |           `$0.0061` |                   `$0.0061` |
+|                           | Latest fees snapshot | 2024-03-31 (high blob fees) |
+| :------------------------ | -------------------: | --------------------------: |
+| Modular Account           |            `$0.0062` |                   `$0.0062` |
+| Biconomy v2               |            `$0.0060` |                   `$0.0061` |
+| Kernel v2.1               |            `$0.0061` |                   `$0.0061` |
+| Safe                      |            `$0.0065` |                   `$0.0065` |
+| Simple Account            |            `$0.0058` |                   `$0.0058` |
+| Light Account             |            `$0.0058` |                   `$0.0058` |
+| Light Account v2          |            `$0.0057` |                   `$0.0057` |
+| Multi-Owner Light Account |            `$0.0057` |                   `$0.0057` |
+| Coinbase Smart Wallet     |            `$0.0059` |                   `$0.0059` |
+| Nexus                     |            `$0.0061` |                   `$0.0061` |
 
 <details>
 <summary><b>Details</b></summary>
 
-##### 2024-05-14 (latest)
+##### Latest fees snapshot
 
 |                           | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
 | :------------------------ | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
@@ -231,23 +231,23 @@
 
 ##### Total fee (USD)
 
-|                           | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
-| :------------------------ | ------------------: | --------------------------: |
-| Modular Account           |           `$0.0108` |                   `$0.0108` |
-| Biconomy v2               |           `$0.0053` |                   `$0.0053` |
-| Kernel v2.1               |           `$0.0051` |                   `$0.0051` |
-| Safe                      |       `Unsupported` |               `Unsupported` |
-| Simple Account            |       `Unsupported` |               `Unsupported` |
-| Light Account             |       `Unsupported` |               `Unsupported` |
-| Light Account v2          |       `Unsupported` |               `Unsupported` |
-| Multi-Owner Light Account |       `Unsupported` |               `Unsupported` |
-| Coinbase Smart Wallet     |       `Unsupported` |               `Unsupported` |
-| Nexus                     |       `Unsupported` |               `Unsupported` |
+|                           | Latest fees snapshot | 2024-03-31 (high blob fees) |
+| :------------------------ | -------------------: | --------------------------: |
+| Modular Account           |            `$0.0108` |                   `$0.0108` |
+| Biconomy v2               |            `$0.0053` |                   `$0.0053` |
+| Kernel v2.1               |            `$0.0051` |                   `$0.0051` |
+| Safe                      |        `Unsupported` |               `Unsupported` |
+| Simple Account            |        `Unsupported` |               `Unsupported` |
+| Light Account             |        `Unsupported` |               `Unsupported` |
+| Light Account v2          |        `Unsupported` |               `Unsupported` |
+| Multi-Owner Light Account |        `Unsupported` |               `Unsupported` |
+| Coinbase Smart Wallet     |        `Unsupported` |               `Unsupported` |
+| Nexus                     |        `Unsupported` |               `Unsupported` |
 
 <details>
 <summary><b>Details</b></summary>
 
-##### 2024-05-14 (latest)
+##### Latest fees snapshot
 
 |                           | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
 | :------------------------ | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
@@ -283,23 +283,23 @@
 
 ##### Total fee (USD)
 
-|                           | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
-| :------------------------ | ------------------: | --------------------------: |
-| Modular Account           |           `$0.0048` |                   `$0.0048` |
-| Biconomy v2               |       `Unsupported` |               `Unsupported` |
-| Kernel v2.1               |           `$0.0038` |                   `$0.0038` |
-| Safe                      |       `Unsupported` |               `Unsupported` |
-| Simple Account            |       `Unsupported` |               `Unsupported` |
-| Light Account             |       `Unsupported` |               `Unsupported` |
-| Light Account v2          |       `Unsupported` |               `Unsupported` |
-| Multi-Owner Light Account |       `Unsupported` |               `Unsupported` |
-| Coinbase Smart Wallet     |       `Unsupported` |               `Unsupported` |
-| Nexus                     |       `Unsupported` |               `Unsupported` |
+|                           | Latest fees snapshot | 2024-03-31 (high blob fees) |
+| :------------------------ | -------------------: | --------------------------: |
+| Modular Account           |            `$0.0048` |                   `$0.0048` |
+| Biconomy v2               |        `Unsupported` |               `Unsupported` |
+| Kernel v2.1               |            `$0.0038` |                   `$0.0038` |
+| Safe                      |        `Unsupported` |               `Unsupported` |
+| Simple Account            |        `Unsupported` |               `Unsupported` |
+| Light Account             |        `Unsupported` |               `Unsupported` |
+| Light Account v2          |        `Unsupported` |               `Unsupported` |
+| Multi-Owner Light Account |        `Unsupported` |               `Unsupported` |
+| Coinbase Smart Wallet     |        `Unsupported` |               `Unsupported` |
+| Nexus                     |        `Unsupported` |               `Unsupported` |
 
 <details>
 <summary><b>Details</b></summary>
 
-##### 2024-05-14 (latest)
+##### Latest fees snapshot
 
 |                           | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
 | :------------------------ | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
@@ -335,23 +335,23 @@
 
 ##### Total fee (USD)
 
-|                           | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
-| :------------------------ | ------------------: | --------------------------: |
-| Modular Account           |           `$0.0057` |                   `$0.0058` |
-| Biconomy v2               |           `$0.0043` |                   `$0.0043` |
-| Kernel v2.1               |           `$0.0045` |                   `$0.0045` |
-| Safe                      |       `Unsupported` |               `Unsupported` |
-| Simple Account            |       `Unsupported` |               `Unsupported` |
-| Light Account             |       `Unsupported` |               `Unsupported` |
-| Light Account v2          |       `Unsupported` |               `Unsupported` |
-| Multi-Owner Light Account |       `Unsupported` |               `Unsupported` |
-| Coinbase Smart Wallet     |       `Unsupported` |               `Unsupported` |
-| Nexus                     |       `Unsupported` |               `Unsupported` |
+|                           | Latest fees snapshot | 2024-03-31 (high blob fees) |
+| :------------------------ | -------------------: | --------------------------: |
+| Modular Account           |            `$0.0057` |                   `$0.0058` |
+| Biconomy v2               |            `$0.0043` |                   `$0.0043` |
+| Kernel v2.1               |            `$0.0045` |                   `$0.0045` |
+| Safe                      |        `Unsupported` |               `Unsupported` |
+| Simple Account            |        `Unsupported` |               `Unsupported` |
+| Light Account             |        `Unsupported` |               `Unsupported` |
+| Light Account v2          |        `Unsupported` |               `Unsupported` |
+| Multi-Owner Light Account |        `Unsupported` |               `Unsupported` |
+| Coinbase Smart Wallet     |        `Unsupported` |               `Unsupported` |
+| Nexus                     |        `Unsupported` |               `Unsupported` |
 
 <details>
 <summary><b>Details</b></summary>
 
-##### 2024-05-14 (latest)
+##### Latest fees snapshot
 
 |                           | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
 | :------------------------ | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
@@ -387,23 +387,23 @@
 
 ##### Total fee (USD)
 
-|                           | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
-| :------------------------ | ------------------: | --------------------------: |
-| Modular Account           |           `$0.0214` |                   `$0.0214` |
-| Biconomy v2               |           `$0.0058` |                   `$0.0058` |
-| Kernel v2.1               |           `$0.0048` |                   `$0.0048` |
-| Safe                      |           `$0.0085` |                   `$0.0085` |
-| Simple Account            |           `$0.0051` |                   `$0.0051` |
-| Light Account             |           `$0.0055` |                   `$0.0055` |
-| Light Account v2          |           `$0.0042` |                   `$0.0042` |
-| Multi-Owner Light Account |           `$0.0050` |                   `$0.0050` |
-| Coinbase Smart Wallet     |           `$0.0056` |                   `$0.0056` |
-| Nexus                     |           `$0.0062` |                   `$0.0062` |
+|                           | Latest fees snapshot | 2024-03-31 (high blob fees) |
+| :------------------------ | -------------------: | --------------------------: |
+| Modular Account           |            `$0.0214` |                   `$0.0214` |
+| Biconomy v2               |            `$0.0058` |                   `$0.0058` |
+| Kernel v2.1               |            `$0.0048` |                   `$0.0048` |
+| Safe                      |            `$0.0085` |                   `$0.0085` |
+| Simple Account            |            `$0.0051` |                   `$0.0051` |
+| Light Account             |            `$0.0055` |                   `$0.0055` |
+| Light Account v2          |            `$0.0042` |                   `$0.0042` |
+| Multi-Owner Light Account |            `$0.0050` |                   `$0.0050` |
+| Coinbase Smart Wallet     |            `$0.0056` |                   `$0.0056` |
+| Nexus                     |            `$0.0062` |                   `$0.0062` |
 
 <details>
 <summary><b>Details</b></summary>
 
-##### 2024-05-14 (latest)
+##### Latest fees snapshot
 
 |                           | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
 | :------------------------ | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
@@ -439,23 +439,23 @@
 
 ##### Total fee (USD)
 
-|                           | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
-| :------------------------ | ------------------: | --------------------------: |
-| Modular Account           |           `$0.0015` |                   `$0.0015` |
-| Biconomy v2               |       `Unsupported` |               `Unsupported` |
-| Kernel v2.1               |           `$0.0013` |                   `$0.0013` |
-| Safe                      |           `$0.0022` |                   `$0.0022` |
-| Simple Account            |           `$0.0012` |                   `$0.0012` |
-| Light Account             |           `$0.0012` |                   `$0.0012` |
-| Light Account v2          |           `$0.0012` |                   `$0.0012` |
-| Multi-Owner Light Account |           `$0.0012` |                   `$0.0012` |
-| Coinbase Smart Wallet     |           `$0.0012` |                   `$0.0012` |
-| Nexus                     |           `$0.0012` |                   `$0.0012` |
+|                           | Latest fees snapshot | 2024-03-31 (high blob fees) |
+| :------------------------ | -------------------: | --------------------------: |
+| Modular Account           |            `$0.0015` |                   `$0.0015` |
+| Biconomy v2               |        `Unsupported` |               `Unsupported` |
+| Kernel v2.1               |            `$0.0013` |                   `$0.0013` |
+| Safe                      |            `$0.0022` |                   `$0.0022` |
+| Simple Account            |            `$0.0012` |                   `$0.0012` |
+| Light Account             |            `$0.0012` |                   `$0.0012` |
+| Light Account v2          |            `$0.0012` |                   `$0.0012` |
+| Multi-Owner Light Account |            `$0.0012` |                   `$0.0012` |
+| Coinbase Smart Wallet     |            `$0.0012` |                   `$0.0012` |
+| Nexus                     |            `$0.0012` |                   `$0.0012` |
 
 <details>
 <summary><b>Details</b></summary>
 
-##### 2024-05-14 (latest)
+##### Latest fees snapshot
 
 |                           | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
 | :------------------------ | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
@@ -491,23 +491,23 @@
 
 ##### Total fee (USD)
 
-|                           | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
-| :------------------------ | ------------------: | --------------------------: |
-| Modular Account           |           `$0.0022` |                   `$0.0022` |
-| Biconomy v2               |       `Unsupported` |               `Unsupported` |
-| Kernel v2.1               |           `$0.0020` |                   `$0.0020` |
-| Safe                      |           `$0.0029` |                   `$0.0029` |
-| Simple Account            |           `$0.0019` |                   `$0.0019` |
-| Light Account             |           `$0.0019` |                   `$0.0019` |
-| Light Account v2          |           `$0.0019` |                   `$0.0019` |
-| Multi-Owner Light Account |           `$0.0019` |                   `$0.0019` |
-| Coinbase Smart Wallet     |           `$0.0019` |                   `$0.0019` |
-| Nexus                     |           `$0.0019` |                   `$0.0019` |
+|                           | Latest fees snapshot | 2024-03-31 (high blob fees) |
+| :------------------------ | -------------------: | --------------------------: |
+| Modular Account           |            `$0.0022` |                   `$0.0022` |
+| Biconomy v2               |        `Unsupported` |               `Unsupported` |
+| Kernel v2.1               |            `$0.0020` |                   `$0.0020` |
+| Safe                      |            `$0.0029` |                   `$0.0029` |
+| Simple Account            |            `$0.0019` |                   `$0.0019` |
+| Light Account             |            `$0.0019` |                   `$0.0019` |
+| Light Account v2          |            `$0.0019` |                   `$0.0019` |
+| Multi-Owner Light Account |            `$0.0019` |                   `$0.0019` |
+| Coinbase Smart Wallet     |            `$0.0019` |                   `$0.0019` |
+| Nexus                     |            `$0.0019` |                   `$0.0019` |
 
 <details>
 <summary><b>Details</b></summary>
 
-##### 2024-05-14 (latest)
+##### Latest fees snapshot
 
 |                           | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
 | :------------------------ | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
@@ -543,23 +543,23 @@
 
 ##### Total fee (USD)
 
-|                           | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
-| :------------------------ | ------------------: | --------------------------: |
-| Modular Account           |           `$0.0044` |                   `$0.0044` |
-| Biconomy v2               |       `Unsupported` |               `Unsupported` |
-| Kernel v2.1               |           `$0.0042` |                   `$0.0042` |
-| Safe                      |           `$0.0046` |                   `$0.0046` |
-| Simple Account            |           `$0.0040` |                   `$0.0040` |
-| Light Account             |           `$0.0040` |                   `$0.0040` |
-| Light Account v2          |           `$0.0040` |                   `$0.0040` |
-| Multi-Owner Light Account |           `$0.0040` |                   `$0.0040` |
-| Coinbase Smart Wallet     |           `$0.0040` |                   `$0.0041` |
-| Nexus                     |           `$0.0040` |                   `$0.0040` |
+|                           | Latest fees snapshot | 2024-03-31 (high blob fees) |
+| :------------------------ | -------------------: | --------------------------: |
+| Modular Account           |            `$0.0044` |                   `$0.0044` |
+| Biconomy v2               |        `Unsupported` |               `Unsupported` |
+| Kernel v2.1               |            `$0.0042` |                   `$0.0042` |
+| Safe                      |            `$0.0046` |                   `$0.0046` |
+| Simple Account            |            `$0.0040` |                   `$0.0040` |
+| Light Account             |            `$0.0040` |                   `$0.0040` |
+| Light Account v2          |            `$0.0040` |                   `$0.0040` |
+| Multi-Owner Light Account |            `$0.0040` |                   `$0.0040` |
+| Coinbase Smart Wallet     |            `$0.0040` |                   `$0.0041` |
+| Nexus                     |            `$0.0040` |                   `$0.0040` |
 
 <details>
 <summary><b>Details</b></summary>
 
-##### 2024-05-14 (latest)
+##### Latest fees snapshot
 
 |                           | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
 | :------------------------ | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
