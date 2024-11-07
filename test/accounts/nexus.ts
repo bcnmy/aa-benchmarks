@@ -56,12 +56,15 @@ async function accountFixture(): Promise<AccountDataV07> {
     createAccount: async (salt, ownerAddress) => {
       const attesters = [ownerAddress];
       const threshold = 1;
-      return await nexusFactory.write.createAccount([
+
+      const hash = await nexusFactory.write.createAccount([
         ownerAddress,
         salt,
         attesters,
         threshold,
       ]);
+
+      return hash;
     },
 
     getAccountAddress: async (salt, ownerAddress) => {

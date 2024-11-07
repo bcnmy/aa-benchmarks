@@ -19,13 +19,13 @@
 | Blob base fee scalar |                 `-` |                         `-` |
 | ETH price (USD)      |           `$2948.6` |                         `-` |
 
-#### Runtime: Account creation
+#### User Operation: Account creation
 
 ##### Total fee (USD)
 
 |       | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
 | :---- | ------------------: | --------------------------: |
-| Nexus |           `$2.5718` |                  `$17.3529` |
+| Nexus |           `$3.6825` |                  `$24.8471` |
 
 <details>
 <summary><b>Details</b></summary>
@@ -34,13 +34,188 @@
 
 |       | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
 | :---- | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
-| Nexus |      `244704` |       `0.000872209` |    `-` |          `-` |   `0.000872209` |       `$2.5718` |
+| Nexus |      `350384` |       `0.001248889` |    `-` |          `-` |   `0.001248889` |       `$3.6825` |
 
 ##### 2024-03-31 (high blob fees)
 
 |       | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
 | :---- | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
-| Nexus |      `244704` |       `0.005885131` |    `-` |          `-` |   `0.005885131` |      `$17.3529` |
+| Nexus |      `350384` |       `0.008426735` |    `-` |          `-` |   `0.008426735` |      `$24.8471` |
+
+</details>
+
+#### User Operation: Native transfer
+
+##### Total fee (USD)
+
+|       | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
+| :---- | ------------------: | --------------------------: |
+| Nexus |           `$1.7599` |                  `$11.8749` |
+
+<details>
+<summary><b>Details</b></summary>
+
+##### 2024-05-14 (latest)
+
+|       | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
+| :---- | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
+| Nexus |      `167456` |       `0.000596871` |    `-` |          `-` |   `0.000596871` |       `$1.7599` |
+
+##### 2024-03-31 (high blob fees)
+
+|       | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
+| :---- | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
+| Nexus |      `167456` |       `0.004027317` |    `-` |          `-` |   `0.004027317` |      `$11.8749` |
+
+</details>
+
+#### User Operation: ERC-20 transfer
+
+##### Total fee (USD)
+
+|       | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
+| :---- | ------------------: | --------------------------: |
+| Nexus |           `$2.0099` |                  `$13.5616` |
+
+<details>
+<summary><b>Details</b></summary>
+
+##### 2024-05-14 (latest)
+
+|       | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
+| :---- | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
+| Nexus |      `191241` |       `0.000681649` |    `-` |          `-` |   `0.000681649` |       `$2.0099` |
+
+##### 2024-03-31 (high blob fees)
+
+|       | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
+| :---- | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
+| Nexus |      `191241` |       `0.004599346` |    `-` |          `-` |   `0.004599346` |      `$13.5616` |
+
+</details>
+
+#### User Operation: Uniswap V3 ERC-20 swap
+
+##### Total fee (USD)
+
+|       | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
+| :---- | ------------------: | --------------------------: |
+| Nexus |           `$2.2112` |                  `$14.9196` |
+
+<details>
+<summary><b>Details</b></summary>
+
+##### 2024-05-14 (latest)
+
+|       | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
+| :---- | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
+| Nexus |      `210391` |       `0.000749906` |    `-` |          `-` |   `0.000749906` |       `$2.2112` |
+
+##### 2024-03-31 (high blob fees)
+
+|       | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
+| :---- | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
+| Nexus |      `210391` |       `0.005059904` |    `-` |          `-` |   `0.005059904` |      `$14.9196` |
+
+</details>
+
+#### User Operation: Session key creation
+
+##### Total fee (USD)
+
+|       | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
+| :---- | ------------------: | --------------------------: |
+| Nexus |       `Unsupported` |               `Unsupported` |
+
+<details>
+<summary><b>Details</b></summary>
+
+##### 2024-05-14 (latest)
+
+|       | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
+| :---- | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
+| Nexus |           `-` |                 `-` |    `-` |          `-` |             `-` |             `-` |
+
+##### 2024-03-31 (high blob fees)
+
+|       | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
+| :---- | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
+| Nexus |           `-` |                 `-` |    `-` |          `-` |             `-` |             `-` |
+
+</details>
+
+#### User Operation: Session key native transfer
+
+##### Total fee (USD)
+
+|       | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
+| :---- | ------------------: | --------------------------: |
+| Nexus |       `Unsupported` |               `Unsupported` |
+
+<details>
+<summary><b>Details</b></summary>
+
+##### 2024-05-14 (latest)
+
+|       | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
+| :---- | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
+| Nexus |           `-` |                 `-` |    `-` |          `-` |             `-` |             `-` |
+
+##### 2024-03-31 (high blob fees)
+
+|       | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
+| :---- | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
+| Nexus |           `-` |                 `-` |    `-` |          `-` |             `-` |             `-` |
+
+</details>
+
+#### User Operation: Session key ERC-20 transfer
+
+##### Total fee (USD)
+
+|       | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
+| :---- | ------------------: | --------------------------: |
+| Nexus |       `Unsupported` |               `Unsupported` |
+
+<details>
+<summary><b>Details</b></summary>
+
+##### 2024-05-14 (latest)
+
+|       | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
+| :---- | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
+| Nexus |           `-` |                 `-` |    `-` |          `-` |             `-` |             `-` |
+
+##### 2024-03-31 (high blob fees)
+
+|       | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
+| :---- | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
+| Nexus |           `-` |                 `-` |    `-` |          `-` |             `-` |             `-` |
+
+</details>
+
+#### Runtime: Account creation
+
+##### Total fee (USD)
+
+|       | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
+| :---- | ------------------: | --------------------------: |
+| Nexus |           `$2.2881` |                  `$15.4384` |
+
+<details>
+<summary><b>Details</b></summary>
+
+##### 2024-05-14 (latest)
+
+|       | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
+| :---- | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
+| Nexus |      `217707` |       `0.000775983` |    `-` |          `-` |   `0.000775983` |       `$2.2881` |
+
+##### 2024-03-31 (high blob fees)
+
+|       | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
+| :---- | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
+| Nexus |      `217707` |       `0.005235853` |    `-` |          `-` |   `0.005235853` |      `$15.4384` |
 
 </details>
 
@@ -50,7 +225,7 @@
 
 |       | 2024-05-14 (latest) | 2024-03-31 (high blob fees) |
 | :---- | ------------------: | --------------------------: |
-| Nexus |           `$0.5804` |                   `$3.9159` |
+| Nexus |       `Unsupported` |               `Unsupported` |
 
 <details>
 <summary><b>Details</b></summary>
@@ -59,13 +234,13 @@
 
 |       | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
 | :---- | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
-| Nexus |       `55220` |       `0.000196823` |    `-` |          `-` |   `0.000196823` |       `$0.5804` |
+| Nexus |           `-` |                 `-` |    `-` |          `-` |             `-` |             `-` |
 
 ##### 2024-03-31 (high blob fees)
 
 |       | Execution gas | Execution fee (ETH) | L1 gas | L1 fee (ETH) | Total fee (ETH) | Total fee (USD) |
 | :---- | ------------: | ------------------: | -----: | -----------: | --------------: | --------------: |
-| Nexus |       `55220` |       `0.001328041` |    `-` |          `-` |   `0.001328041` |       `$3.9159` |
+| Nexus |           `-` |                 `-` |    `-` |          `-` |             `-` |             `-` |
 
 </details>
 
