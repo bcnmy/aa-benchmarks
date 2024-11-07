@@ -622,19 +622,10 @@ describe("Benchmark", function () {
             accountAddress,
           );
 
-          console.log("Account Name", name);
-          if (name !== "Nexus") {
-            hash = await owner.sendTransaction({
-              to: accountAddress,
-              data,
-            });
-          } else {
-            console.log("Nexus");
-            hash = await owner.sendTransaction({
-              to: NEXUS_ARTIFACTS.K1Validator.address,
-              data,
-            });
-          }
+          hash = await owner.sendTransaction({
+            to: accountAddress,
+            data,
+          });
 
           // Check that the transfer was successful
           const aliceBalance = await publicClient.getBalance({

@@ -97,11 +97,12 @@ async function accountFixture(): Promise<AccountDataV07> {
           [target, value, data],
         );
 
-        const defaultMode = "0x" + "00".repeat(32);
-        console.log("Executing encodeUserOpExecute with:", {
+        const defaultMode = toHex(0, {size: 32});
+
+        /* console.log("Executing encodeUserOpExecute with:", {
           zeroHash,
           executionCalldata,
-        });
+        }); */
 
         return encodeFunctionData({
           abi: [
@@ -135,19 +136,19 @@ async function accountFixture(): Promise<AccountDataV07> {
         );
 
         const defaultMode = toHex(0, {size: 32});
-        console.log("Executing encodeRuntimeExecute with:", {
+        /*         console.log("Executing encodeRuntimeExecute with:", {
           zeroHash,
           executionCalldata,
-        });
+        }); */
 
         return encodeFunctionData({
           abi: [
             getAbiItem({
-              abi: NEXUS_ARTIFACTS.K1Validator.abi,
+              abi: NEXUS_ARTIFACTS.Nexus.abi,
               name: "execute",
             }),
           ],
-          args: [accountAddress, defaultMode, executionCalldata],
+          args: [defaultMode, executionCalldata],
         });
       } catch (error) {
         console.error("Error encoding RuntimeExecute:", error);

@@ -168,7 +168,7 @@ async function handleOpsV07(
     nonceKey,
   ]);
 
-  console.log("Nonce:", toHex(nonce));
+  //console.log("Nonce:", toHex(nonce));
   const packedUserOp = getUnsignedPackedUserOp({
     sender: params.sender,
     nonce,
