@@ -17,6 +17,7 @@ import {modularAccount} from "./accounts/modularAccount";
 import {multiOwnerLightAccount} from "./accounts/multiOwnerLightAccount";
 import {safe} from "./accounts/safe";
 import {simpleAccount} from "./accounts/simpleAccount";
+import {nexus} from "./accounts/nexus";
 import {TOKEN_ARTIFACTS} from "./artifacts/tokens";
 import {EntryPointV06, EntryPointV07} from "./utils/entryPoint";
 import {PackedUserOperation, UserOperation} from "./utils/userOp";
@@ -103,4 +104,5 @@ export const ACCOUNTS_TO_BENCHMARK: AccountConfig[] = [
   lightAccountV2,
   multiOwnerLightAccount,
   coinbaseSmartWallet,
+  nexus,
 ];

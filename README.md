@@ -48,11 +48,12 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Biconomy v2               |           `$0.0595` |                   `$0.1242` |
 | Kernel v2.1               |           `$0.0535` |                   `$0.1200` |
 | Safe                      |           `$0.0785` |                   `$0.1595` |
-| Simple Account            |           `$0.0536` |                   `$0.1066` |
+| Simple Account            |           `$0.0537` |                   `$0.1080` |
 | Light Account             |           `$0.0560` |                   `$0.1106` |
-| Light Account v2          |           `$0.0481` |                   `$0.1007` |
-| Multi-Owner Light Account |           `$0.0528` |                   `$0.1052` |
+| Light Account v2          |           `$0.0482` |                   `$0.1022` |
+| Multi-Owner Light Account |           `$0.0528` |                   `$0.1067` |
 | Coinbase Smart Wallet     |           `$0.0573` |                   `$0.1202` |
+| Nexus                     |           `$0.0634` |                   `$0.1241` |
 
 <details>
 <summary><b>Details</b></summary>
@@ -65,11 +66,12 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Biconomy v2               |      `329947` |       `0.000020135` |  `9224` | `0.000000045` |   `0.000020180` |       `$0.0595` |
 | Kernel v2.1               |      `296301` |       `0.000018081` |  `9472` | `0.000000046` |   `0.000018128` |       `$0.0535` |
 | Safe                      |      `435486` |       `0.000026575` | `11552` | `0.000000057` |   `0.000026632` |       `$0.0785` |
-| Simple Account            |      `297367` |       `0.000018146` |  `7568` | `0.000000037` |   `0.000018183` |       `$0.0536` |
+| Simple Account            |      `297571` |       `0.000018159` |  `7760` | `0.000000038` |   `0.000018197` |       `$0.0537` |
 | Light Account             |      `310532` |       `0.000018950` |  `7800` | `0.000000038` |   `0.000018988` |       `$0.0560` |
-| Light Account v2          |      `266901` |       `0.000016287` |  `7496` | `0.000000037` |   `0.000016324` |       `$0.0481` |
-| Multi-Owner Light Account |      `292822` |       `0.000017869` |  `7484` | `0.000000037` |   `0.000017906` |       `$0.0528` |
+| Light Account v2          |      `267105` |       `0.000016300` |  `7700` | `0.000000038` |   `0.000016337` |       `$0.0482` |
+| Multi-Owner Light Account |      `293014` |       `0.000017881` |  `7688` | `0.000000038` |   `0.000017918` |       `$0.0528` |
 | Coinbase Smart Wallet     |      `317904` |       `0.000019400` |  `8964` | `0.000000044` |   `0.000019444` |       `$0.0573` |
+| Nexus                     |      `351795` |       `0.000021468` |  `8664` | `0.000000042` |   `0.000021510` |       `$0.0634` |
 
 ##### 2024-03-31 (high blob fees)
 
@@ -79,11 +81,12 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Biconomy v2               |      `329947` |       `0.000019874` |  `9224` | `0.000022244` |   `0.000042118` |       `$0.1242` |
 | Kernel v2.1               |      `296301` |       `0.000017847` |  `9472` | `0.000022842` |   `0.000040689` |       `$0.1200` |
 | Safe                      |      `435486` |       `0.000026231` | `11552` | `0.000027858` |   `0.000054089` |       `$0.1595` |
-| Simple Account            |      `297367` |       `0.000017911` |  `7568` | `0.000018250` |   `0.000036162` |       `$0.1066` |
+| Simple Account            |      `297571` |       `0.000017924` |  `7760` | `0.000018713` |   `0.000036637` |       `$0.1080` |
 | Light Account             |      `310532` |       `0.000018704` |  `7800` | `0.000018810` |   `0.000037514` |       `$0.1106` |
-| Light Account v2          |      `266901` |       `0.000016076` |  `7496` | `0.000018077` |   `0.000034153` |       `$0.1007` |
-| Multi-Owner Light Account |      `292822` |       `0.000017638` |  `7484` | `0.000018048` |   `0.000035686` |       `$0.1052` |
+| Light Account v2          |      `267105` |       `0.000016089` |  `7700` | `0.000018569` |   `0.000034657` |       `$0.1022` |
+| Multi-Owner Light Account |      `293014` |       `0.000017649` |  `7688` | `0.000018540` |   `0.000036189` |       `$0.1067` |
 | Coinbase Smart Wallet     |      `317904` |       `0.000019149` |  `8964` | `0.000021617` |   `0.000040765` |       `$0.1202` |
+| Nexus                     |      `351795` |       `0.000021190` |  `8664` | `0.000020893` |   `0.000042083` |       `$0.1241` |
 
 </details>
 
@@ -97,11 +100,12 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Biconomy v2               |           `$0.0292` |                   `$0.0846` |
 | Kernel v2.1               |           `$0.0295` |                   `$0.0816` |
 | Safe                      |           `$0.0319` |                   `$0.0844` |
-| Simple Account            |           `$0.0273` |                   `$0.0761` |
+| Simple Account            |           `$0.0273` |                   `$0.0777` |
 | Light Account             |           `$0.0276` |                   `$0.0787` |
-| Light Account v2          |           `$0.0273` |                   `$0.0762` |
-| Multi-Owner Light Account |           `$0.0273` |                   `$0.0762` |
+| Light Account v2          |           `$0.0273` |                   `$0.0775` |
+| Multi-Owner Light Account |           `$0.0273` |                   `$0.0777` |
 | Coinbase Smart Wallet     |           `$0.0283` |                   `$0.0833` |
+| Nexus                     |           `$0.0305` |                   `$0.0818` |
 
 <details>
 <summary><b>Details</b></summary>
@@ -114,11 +118,12 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Biconomy v2               |      `161912` |       `0.000009880` | `7848` | `0.000000038` |   `0.000009919` |       `$0.0292` |
 | Kernel v2.1               |      `163398` |       `0.000009971` | `7388` | `0.000000036` |   `0.000010007` |       `$0.0295` |
 | Safe                      |      `176479` |       `0.000010769` | `7460` | `0.000000037` |   `0.000010806` |       `$0.0319` |
-| Simple Account            |      `151045` |       `0.000009217` | `6932` | `0.000000034` |   `0.000009251` |       `$0.0273` |
+| Simple Account            |      `151261` |       `0.000009231` | `7148` | `0.000000035` |   `0.000009266` |       `$0.0273` |
 | Light Account             |      `152880` |       `0.000009329` | `7248` | `0.000000035` |   `0.000009365` |       `$0.0276` |
-| Light Account v2          |      `151040` |       `0.000009217` | `6944` | `0.000000034` |   `0.000009251` |       `$0.0273` |
-| Multi-Owner Light Account |      `151148` |       `0.000009224` | `6944` | `0.000000034` |   `0.000009258` |       `$0.0273` |
+| Light Account v2          |      `151244` |       `0.000009229` | `7124` | `0.000000035` |   `0.000009264` |       `$0.0273` |
+| Multi-Owner Light Account |      `151352` |       `0.000009236` | `7148` | `0.000000035` |   `0.000009271` |       `$0.0273` |
 | Coinbase Smart Wallet     |      `156812` |       `0.000009569` | `7796` | `0.000000038` |   `0.000009607` |       `$0.0283` |
+| Nexus                     |      `168867` |       `0.000010305` | `7288` | `0.000000036` |   `0.000010341` |       `$0.0305` |
 
 ##### 2024-03-31 (high blob fees)
 
@@ -128,11 +133,12 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Biconomy v2               |      `161912` |       `0.000009753` | `7848` | `0.000018926` |   `0.000028678` |       `$0.0846` |
 | Kernel v2.1               |      `163398` |       `0.000009842` | `7388` | `0.000017816` |   `0.000027658` |       `$0.0816` |
 | Safe                      |      `176479` |       `0.000010630` | `7460` | `0.000017990` |   `0.000028620` |       `$0.0844` |
-| Simple Account            |      `151045` |       `0.000009098` | `6932` | `0.000016717` |   `0.000025815` |       `$0.0761` |
+| Simple Account            |      `151261` |       `0.000009111` | `7148` | `0.000017238` |   `0.000026349` |       `$0.0777` |
 | Light Account             |      `152880` |       `0.000009209` | `7248` | `0.000017479` |   `0.000026687` |       `$0.0787` |
-| Light Account v2          |      `151040` |       `0.000009098` | `6944` | `0.000016746` |   `0.000025843` |       `$0.0762` |
-| Multi-Owner Light Account |      `151148` |       `0.000009104` | `6944` | `0.000016746` |   `0.000025850` |       `$0.0762` |
+| Light Account v2          |      `151244` |       `0.000009110` | `7124` | `0.000017180` |   `0.000026290` |       `$0.0775` |
+| Multi-Owner Light Account |      `151352` |       `0.000009116` | `7148` | `0.000017238` |   `0.000026354` |       `$0.0777` |
 | Coinbase Smart Wallet     |      `156812` |       `0.000009445` | `7796` | `0.000018800` |   `0.000028246` |       `$0.0833` |
+| Nexus                     |      `168867` |       `0.000010171` | `7288` | `0.000017575` |   `0.000027747` |       `$0.0818` |
 
 </details>
 
@@ -146,11 +152,12 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Biconomy v2               |           `$0.0336` |                   `$0.0937` |
 | Kernel v2.1               |           `$0.0339` |                   `$0.0906` |
 | Safe                      |           `$0.0362` |                   `$0.0934` |
-| Simple Account            |           `$0.0316` |                   `$0.0853` |
+| Simple Account            |           `$0.0317` |                   `$0.0866` |
 | Light Account             |           `$0.0320` |                   `$0.0877` |
-| Light Account v2          |           `$0.0316` |                   `$0.0853` |
-| Multi-Owner Light Account |           `$0.0317` |                   `$0.0853` |
+| Light Account v2          |           `$0.0317` |                   `$0.0867` |
+| Multi-Owner Light Account |           `$0.0317` |                   `$0.0868` |
 | Coinbase Smart Wallet     |           `$0.0327` |                   `$0.0923` |
+| Nexus                     |           `$0.0348` |                   `$0.0897` |
 
 <details>
 <summary><b>Details</b></summary>
@@ -163,11 +170,12 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Biconomy v2               |      `185868` |       `0.000011342` | `8532` | `0.000000042` |   `0.000011384` |       `$0.0336` |
 | Kernel v2.1               |      `187609` |       `0.000011449` | `8060` | `0.000000039` |   `0.000011488` |       `$0.0339` |
 | Safe                      |      `200732` |       `0.000012249` | `8120` | `0.000000040` |   `0.000012289` |       `$0.0362` |
-| Simple Account            |      `175283` |       `0.000010696` | `7616` | `0.000000037` |   `0.000010734` |       `$0.0316` |
+| Simple Account            |      `175475` |       `0.000010708` | `7796` | `0.000000038` |   `0.000010746` |       `$0.0317` |
 | Light Account             |      `177013` |       `0.000010802` | `7908` | `0.000000039` |   `0.000010841` |       `$0.0320` |
-| Light Account v2          |      `175186` |       `0.000010690` | `7616` | `0.000000037` |   `0.000010728` |       `$0.0316` |
-| Multi-Owner Light Account |      `175294` |       `0.000010697` | `7616` | `0.000000037` |   `0.000010734` |       `$0.0317` |
+| Light Account v2          |      `175378` |       `0.000010702` | `7808` | `0.000000038` |   `0.000010740` |       `$0.0317` |
+| Multi-Owner Light Account |      `175498` |       `0.000010710` | `7820` | `0.000000038` |   `0.000010748` |       `$0.0317` |
 | Coinbase Smart Wallet     |      `181014` |       `0.000011046` | `8456` | `0.000000041` |   `0.000011088` |       `$0.0327` |
+| Nexus                     |      `192652` |       `0.000011756` | `7804` | `0.000000038` |   `0.000011795` |       `$0.0348` |
 
 ##### 2024-03-31 (high blob fees)
 
@@ -177,11 +185,12 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Biconomy v2               |      `185868` |       `0.000011196` | `8532` | `0.000020575` |   `0.000031771` |       `$0.0937` |
 | Kernel v2.1               |      `187609` |       `0.000011300` | `8060` | `0.000019437` |   `0.000030737` |       `$0.0906` |
 | Safe                      |      `200732` |       `0.000012091` | `8120` | `0.000019582` |   `0.000031672` |       `$0.0934` |
-| Simple Account            |      `175283` |       `0.000010558` | `7616` | `0.000018366` |   `0.000028924` |       `$0.0853` |
+| Simple Account            |      `175475` |       `0.000010569` | `7796` | `0.000018800` |   `0.000029370` |       `$0.0866` |
 | Light Account             |      `177013` |       `0.000010662` | `7908` | `0.000019070` |   `0.000029732` |       `$0.0877` |
-| Light Account v2          |      `175186` |       `0.000010552` | `7616` | `0.000018366` |   `0.000028918` |       `$0.0853` |
-| Multi-Owner Light Account |      `175294` |       `0.000010559` | `7616` | `0.000018366` |   `0.000028925` |       `$0.0853` |
+| Light Account v2          |      `175378` |       `0.000010564` | `7808` | `0.000018829` |   `0.000029393` |       `$0.0867` |
+| Multi-Owner Light Account |      `175498` |       `0.000010571` | `7820` | `0.000018858` |   `0.000029429` |       `$0.0868` |
 | Coinbase Smart Wallet     |      `181014` |       `0.000010903` | `8456` | `0.000020392` |   `0.000031295` |       `$0.0923` |
+| Nexus                     |      `192652` |       `0.000011604` | `7804` | `0.000018819` |   `0.000030424` |       `$0.0897` |
 
 </details>
 
@@ -195,11 +204,12 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Biconomy v2               |           `$0.0370` |                   `$0.1068` |
 | Kernel v2.1               |           `$0.0374` |                   `$0.1038` |
 | Safe                      |           `$0.0398` |                   `$0.1067` |
-| Simple Account            |           `$0.0352` |                   `$0.0986` |
+| Simple Account            |           `$0.0352` |                   `$0.1001` |
 | Light Account             |           `$0.0354` |                   `$0.1010` |
-| Light Account v2          |           `$0.0351` |                   `$0.0985` |
-| Multi-Owner Light Account |           `$0.0351` |                   `$0.0983` |
+| Light Account v2          |           `$0.0351` |                   `$0.1000` |
+| Multi-Owner Light Account |           `$0.0351` |                   `$0.0998` |
 | Coinbase Smart Wallet     |           `$0.0362` |                   `$0.1056` |
+| Nexus                     |           `$0.0382` |                   `$0.1029` |
 
 <details>
 <summary><b>Details</b></summary>
@@ -212,11 +222,12 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Biconomy v2               |      `205018` |       `0.000012511` | `9900` | `0.000000048` |   `0.000012559` |       `$0.0370` |
 | Kernel v2.1               |      `207241` |       `0.000012647` | `9428` | `0.000000046` |   `0.000012693` |       `$0.0374` |
 | Safe                      |      `220464` |       `0.000013454` | `9500` | `0.000000047` |   `0.000013500` |       `$0.0398` |
-| Simple Account            |      `194829` |       `0.000011889` | `8996` | `0.000000044` |   `0.000011933` |       `$0.0352` |
+| Simple Account            |      `195033` |       `0.000011902` | `9200` | `0.000000045` |   `0.000011947` |       `$0.0352` |
 | Light Account             |      `196151` |       `0.000011970` | `9300` | `0.000000046` |   `0.000012015` |       `$0.0354` |
-| Light Account v2          |      `194311` |       `0.000011858` | `8996` | `0.000000044` |   `0.000011902` |       `$0.0351` |
-| Multi-Owner Light Account |      `194407` |       `0.000011863` | `8972` | `0.000000044` |   `0.000011907` |       `$0.0351` |
+| Light Account v2          |      `194515` |       `0.000011870` | `9200` | `0.000000045` |   `0.000011915` |       `$0.0351` |
+| Multi-Owner Light Account |      `194611` |       `0.000011876` | `9176` | `0.000000045` |   `0.000011921` |       `$0.0351` |
 | Coinbase Smart Wallet     |      `200573` |       `0.000012240` | `9836` | `0.000000048` |   `0.000012288` |       `$0.0362` |
+| Nexus                     |      `211802` |       `0.000012925` | `9188` | `0.000000045` |   `0.000012970` |       `$0.0382` |
 
 ##### 2024-03-31 (high blob fees)
 
@@ -226,11 +237,12 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Biconomy v2               |      `205018` |       `0.000012349` | `9900` | `0.000023874` |   `0.000036223` |       `$0.1068` |
 | Kernel v2.1               |      `207241` |       `0.000012483` | `9428` | `0.000022736` |   `0.000035219` |       `$0.1038` |
 | Safe                      |      `220464` |       `0.000013279` | `9500` | `0.000022909` |   `0.000036189` |       `$0.1067` |
-| Simple Account            |      `194829` |       `0.000011735` | `8996` | `0.000021694` |   `0.000033429` |       `$0.0986` |
+| Simple Account            |      `195033` |       `0.000011748` | `9200` | `0.000022186` |   `0.000033933` |       `$0.1001` |
 | Light Account             |      `196151` |       `0.000011815` | `9300` | `0.000022427` |   `0.000034242` |       `$0.1010` |
-| Light Account v2          |      `194311` |       `0.000011704` | `8996` | `0.000021694` |   `0.000033398` |       `$0.0985` |
-| Multi-Owner Light Account |      `194407` |       `0.000011710` | `8972` | `0.000021636` |   `0.000033346` |       `$0.0983` |
+| Light Account v2          |      `194515` |       `0.000011716` | `9200` | `0.000022186` |   `0.000033902` |       `$0.1000` |
+| Multi-Owner Light Account |      `194611` |       `0.000011722` | `9176` | `0.000022128` |   `0.000033850` |       `$0.0998` |
 | Coinbase Smart Wallet     |      `200573` |       `0.000012081` | `9836` | `0.000023720` |   `0.000035801` |       `$0.1056` |
+| Nexus                     |      `211802` |       `0.000012758` | `9188` | `0.000022157` |   `0.000034915` |       `$0.1029` |
 
 </details>
 
@@ -249,6 +261,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |       `Unsupported` |               `Unsupported` |
 | Multi-Owner Light Account |       `Unsupported` |               `Unsupported` |
 | Coinbase Smart Wallet     |       `Unsupported` |               `Unsupported` |
+| Nexus                     |       `Unsupported` |               `Unsupported` |
 
 <details>
 <summary><b>Details</b></summary>
@@ -266,6 +279,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |           `-` |                 `-` |     `-` |           `-` |             `-` |             `-` |
 | Multi-Owner Light Account |           `-` |                 `-` |     `-` |           `-` |             `-` |             `-` |
 | Coinbase Smart Wallet     |           `-` |                 `-` |     `-` |           `-` |             `-` |             `-` |
+| Nexus                     |           `-` |                 `-` |     `-` |           `-` |             `-` |             `-` |
 
 ##### 2024-03-31 (high blob fees)
 
@@ -280,6 +294,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |           `-` |                 `-` |     `-` |           `-` |             `-` |             `-` |
 | Multi-Owner Light Account |           `-` |                 `-` |     `-` |           `-` |             `-` |             `-` |
 | Coinbase Smart Wallet     |           `-` |                 `-` |     `-` |           `-` |             `-` |             `-` |
+| Nexus                     |           `-` |                 `-` |     `-` |           `-` |             `-` |             `-` |
 
 </details>
 
@@ -298,6 +313,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |       `Unsupported` |               `Unsupported` |
 | Multi-Owner Light Account |       `Unsupported` |               `Unsupported` |
 | Coinbase Smart Wallet     |       `Unsupported` |               `Unsupported` |
+| Nexus                     |       `Unsupported` |               `Unsupported` |
 
 <details>
 <summary><b>Details</b></summary>
@@ -315,6 +331,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |           `-` |                 `-` |    `-` |           `-` |             `-` |             `-` |
 | Multi-Owner Light Account |           `-` |                 `-` |    `-` |           `-` |             `-` |             `-` |
 | Coinbase Smart Wallet     |           `-` |                 `-` |    `-` |           `-` |             `-` |             `-` |
+| Nexus                     |           `-` |                 `-` |    `-` |           `-` |             `-` |             `-` |
 
 ##### 2024-03-31 (high blob fees)
 
@@ -329,6 +346,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |           `-` |                 `-` |    `-` |           `-` |             `-` |             `-` |
 | Multi-Owner Light Account |           `-` |                 `-` |    `-` |           `-` |             `-` |             `-` |
 | Coinbase Smart Wallet     |           `-` |                 `-` |    `-` |           `-` |             `-` |             `-` |
+| Nexus                     |           `-` |                 `-` |    `-` |           `-` |             `-` |             `-` |
 
 </details>
 
@@ -347,6 +365,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |       `Unsupported` |               `Unsupported` |
 | Multi-Owner Light Account |       `Unsupported` |               `Unsupported` |
 | Coinbase Smart Wallet     |       `Unsupported` |               `Unsupported` |
+| Nexus                     |       `Unsupported` |               `Unsupported` |
 
 <details>
 <summary><b>Details</b></summary>
@@ -364,6 +383,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |           `-` |                 `-` |     `-` |           `-` |             `-` |             `-` |
 | Multi-Owner Light Account |           `-` |                 `-` |     `-` |           `-` |             `-` |             `-` |
 | Coinbase Smart Wallet     |           `-` |                 `-` |     `-` |           `-` |             `-` |             `-` |
+| Nexus                     |           `-` |                 `-` |     `-` |           `-` |             `-` |             `-` |
 
 ##### 2024-03-31 (high blob fees)
 
@@ -378,6 +398,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |           `-` |                 `-` |     `-` |           `-` |             `-` |             `-` |
 | Multi-Owner Light Account |           `-` |                 `-` |     `-` |           `-` |             `-` |             `-` |
 | Coinbase Smart Wallet     |           `-` |                 `-` |     `-` |           `-` |             `-` |             `-` |
+| Nexus                     |           `-` |                 `-` |     `-` |           `-` |             `-` |             `-` |
 
 </details>
 
@@ -396,6 +417,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |           `$0.0259` |                   `$0.0418` |
 | Multi-Owner Light Account |           `$0.0306` |                   `$0.0465` |
 | Coinbase Smart Wallet     |           `$0.0343` |                   `$0.0548` |
+| Nexus                     |           `$0.0392` |                   `$0.0611` |
 
 <details>
 <summary><b>Details</b></summary>
@@ -413,6 +435,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |      `143842` |       `0.000008778` | `2288` | `0.000000011` |   `0.000008789` |       `$0.0259` |
 | Multi-Owner Light Account |      `169655` |       `0.000010353` | `2300` | `0.000000011` |   `0.000010364` |       `$0.0306` |
 | Coinbase Smart Wallet     |      `190525` |       `0.000011627` | `2948` | `0.000000014` |   `0.000011641` |       `$0.0343` |
+| Nexus                     |      `217707` |       `0.000013285` | `3152` | `0.000000015` |   `0.000013301` |       `$0.0392` |
 
 ##### 2024-03-31 (high blob fees)
 
@@ -427,6 +450,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |      `143842` |       `0.000008664` | `2288` | `0.000005518` |   `0.000014182` |       `$0.0418` |
 | Multi-Owner Light Account |      `169655` |       `0.000010219` | `2300` | `0.000005546` |   `0.000015765` |       `$0.0465` |
 | Coinbase Smart Wallet     |      `190525` |       `0.000011476` | `2948` | `0.000007109` |   `0.000018585` |       `$0.0548` |
+| Nexus                     |      `217707` |       `0.000013113` | `3152` | `0.000007601` |   `0.000020714` |       `$0.0611` |
 
 </details>
 
@@ -445,6 +469,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |           `$0.0071` |                   `$0.0263` |
 | Multi-Owner Light Account |           `$0.0071` |                   `$0.0263` |
 | Coinbase Smart Wallet     |           `$0.0072` |                   `$0.0263` |
+| Nexus                     |       `Unsupported` |               `Unsupported` |
 
 <details>
 <summary><b>Details</b></summary>
@@ -462,6 +487,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |       `39368` |       `0.000002402` | `2712` | `0.000000013` |   `0.000002416` |       `$0.0071` |
 | Multi-Owner Light Account |       `39463` |       `0.000002408` | `2712` | `0.000000013` |   `0.000002421` |       `$0.0071` |
 | Coinbase Smart Wallet     |       `39681` |       `0.000002421` | `2712` | `0.000000013` |   `0.000002435` |       `$0.0072` |
+| Nexus                     |           `-` |                 `-` |    `-` |           `-` |             `-` |             `-` |
 
 ##### 2024-03-31 (high blob fees)
 
@@ -476,6 +502,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |       `39368` |       `0.000002371` | `2712` | `0.000006540` |   `0.000008911` |       `$0.0263` |
 | Multi-Owner Light Account |       `39463` |       `0.000002377` | `2712` | `0.000006540` |   `0.000008917` |       `$0.0263` |
 | Coinbase Smart Wallet     |       `39681` |       `0.000002390` | `2712` | `0.000006540` |   `0.000008930` |       `$0.0263` |
+| Nexus                     |           `-` |                 `-` |    `-` |           `-` |             `-` |             `-` |
 
 </details>
 
@@ -494,6 +521,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |           `$0.0115` |                   `$0.0354` |
 | Multi-Owner Light Account |           `$0.0115` |                   `$0.0354` |
 | Coinbase Smart Wallet     |           `$0.0115` |                   `$0.0354` |
+| Nexus                     |       `Unsupported` |               `Unsupported` |
 
 <details>
 <summary><b>Details</b></summary>
@@ -511,6 +539,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |       `63410` |       `0.000003870` | `3388` | `0.000000017` |   `0.000003886` |       `$0.0115` |
 | Multi-Owner Light Account |       `63505` |       `0.000003875` | `3388` | `0.000000017` |   `0.000003892` |       `$0.0115` |
 | Coinbase Smart Wallet     |       `63803` |       `0.000003893` | `3388` | `0.000000017` |   `0.000003910` |       `$0.0115` |
+| Nexus                     |           `-` |                 `-` |    `-` |           `-` |             `-` |             `-` |
 
 ##### 2024-03-31 (high blob fees)
 
@@ -525,6 +554,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |       `63410` |       `0.000003819` | `3388` | `0.000008170` |   `0.000011990` |       `$0.0354` |
 | Multi-Owner Light Account |       `63505` |       `0.000003825` | `3388` | `0.000008170` |   `0.000011995` |       `$0.0354` |
 | Coinbase Smart Wallet     |       `63803` |       `0.000003843` | `3388` | `0.000008170` |   `0.000012013` |       `$0.0354` |
+| Nexus                     |           `-` |                 `-` |    `-` |           `-` |             `-` |             `-` |
 
 </details>
 
@@ -543,6 +573,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |           `$0.0246` |                   `$0.0580` |
 | Multi-Owner Light Account |           `$0.0246` |                   `$0.0580` |
 | Coinbase Smart Wallet     |           `$0.0248` |                   `$0.0582` |
+| Nexus                     |       `Unsupported` |               `Unsupported` |
 
 <details>
 <summary><b>Details</b></summary>
@@ -560,6 +591,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |      `136429` |       `0.000008325` | `4748` | `0.000000023` |   `0.000008349` |       `$0.0246` |
 | Multi-Owner Light Account |      `136524` |       `0.000008331` | `4748` | `0.000000023` |   `0.000008354` |       `$0.0246` |
 | Coinbase Smart Wallet     |      `137243` |       `0.000008375` | `4760` | `0.000000023` |   `0.000008398` |       `$0.0248` |
+| Nexus                     |           `-` |                 `-` |    `-` |           `-` |             `-` |             `-` |
 
 ##### 2024-03-31 (high blob fees)
 
@@ -574,6 +606,7 @@ These numbers are derived from local simulations with fixed inputs (see [Run ben
 | Light Account v2          |      `136429` |       `0.000008218` | `4748` | `0.000011450` |   `0.000019667` |       `$0.0580` |
 | Multi-Owner Light Account |      `136524` |       `0.000008223` | `4748` | `0.000011450` |   `0.000019673` |       `$0.0580` |
 | Coinbase Smart Wallet     |      `137243` |       `0.000008267` | `4760` | `0.000011479` |   `0.000019745` |       `$0.0582` |
+| Nexus                     |           `-` |                 `-` |    `-` |           `-` |             `-` |             `-` |
 
 </details>
 
