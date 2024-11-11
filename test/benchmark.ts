@@ -252,6 +252,9 @@ describe("Benchmark", function () {
             0n,
             owner.account.address,
           );
+
+          console.log("account address", accountAddress);
+
           await fundAccount(accountAddress, usdc);
 
           hash = await wrappedHandleOps({
@@ -261,8 +264,10 @@ describe("Benchmark", function () {
             sender: accountAddress,
             initCode: accountData.getInitCode(0n, owner.account.address),
             callData: accountData.encodeUserOpExecute(zeroAddress, 0n, "0x"),
+            // CHECK THOSE
             getDummySignature: accountData.getDummySignature,
             getSignature: accountData.getOwnerSignature,
+            nonceKey: accountData.getNonceKey?.(),
           });
 
           // Check that the account was created
@@ -296,6 +301,7 @@ describe("Benchmark", function () {
             ),
             getDummySignature: accountData.getDummySignature,
             getSignature: accountData.getOwnerSignature,
+            nonceKey: accountData.getNonceKey?.(),
           });
 
           // Check that the transfer was successful
@@ -339,6 +345,7 @@ describe("Benchmark", function () {
             ),
             getDummySignature: accountData.getDummySignature,
             getSignature: accountData.getOwnerSignature,
+            nonceKey: accountData.getNonceKey?.(),
           });
 
           // Check that the ERC-20 transfer was successful
@@ -381,6 +388,7 @@ describe("Benchmark", function () {
             ),
             getDummySignature: accountData.getDummySignature,
             getSignature: accountData.getOwnerSignature,
+            nonceKey: accountData.getNonceKey?.(),
           });
 
           hash = await wrappedHandleOps({
@@ -414,6 +422,7 @@ describe("Benchmark", function () {
             ),
             getDummySignature: accountData.getDummySignature,
             getSignature: accountData.getOwnerSignature,
+            nonceKey: accountData.getNonceKey?.(),
           });
 
           // Check that the swap was successful

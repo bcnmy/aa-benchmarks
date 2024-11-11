@@ -125,6 +125,7 @@ interface HandleOpsParams<TEntryPoint extends EntryPointV06 | EntryPointV07> {
   callData: Hex;
   getDummySignature: AccountData<TEntryPoint>["getDummySignature"];
   getSignature: AccountData<TEntryPoint>["getOwnerSignature"];
+  nonceKey?: `0x${string}`;
 }
 
 async function handleOpsV06(
@@ -149,26 +150,15 @@ async function handleOpsV06(
   ]);
 }
 
-// TODO: REBUILD TO ACCEPT NONCE KEY AS PARAMETER
-
 async function handleOpsV07(
   params: HandleOpsParams<EntryPointV07>,
 ): Promise<Hex> {
-  //const nonce = await params.entryPoint.read.getNonce([params.sender, 0n]);
-  const validatorModuleAddress = "0x00000004171351c442B202678c48D8AB5B321E8f";
-  // Pad the validator module address to 24 bytes (right-padding)
-  const nonceKey = pad(validatorModuleAddress, {
-    size: 24,
-    dir: "left",
-  });
-
   // Fetch the nonce from the entry point using the padded address
   const nonce = await params.entryPoint.read.getNonce([
     params.sender,
-    nonceKey,
+    BigInt(params.nonceKey ?? 0),
   ]);
 
-  //console.log("Nonce:", toHex(nonce));
   const packedUserOp = getUnsignedPackedUserOp({
     sender: params.sender,
     nonce,
@@ -198,6 +188,7 @@ interface WrappedHandleOpsParams<
   callData: Hex;
   getDummySignature: TAccountData["getDummySignature"];
   getSignature: TAccountData["getOwnerSignature"];
+  nonceKey?: `0x${string}`;
 }
 
 function isWrappedHandleOpsParamsV06(
@@ -236,6 +227,7 @@ export async function wrappedHandleOps<
       callData: params.callData,
       getDummySignature: params.getDummySignature,
       getSignature: params.getSignature,
+      nonceKey: params.nonceKey,
     });
   }
   throw new Error("Invalid entry point");
