@@ -134,7 +134,8 @@ const CHAIN_CONFIG: ChainConfig = {
   },
 };
 
-const LATEST_SNAPSHOT_LABEL = `${new Date(SNAPSHOT_TIMESTAMP_MS).toISOString().substring(0, 10)} (latest)`;
+//const LATEST_SNAPSHOT_LABEL = `${new Date(SNAPSHOT_TIMESTAMP_MS).toISOString().substring(0, 10)} (latest)`;
+const LATEST_SNAPSHOT_LABEL = `Latest fees snapshot`;
 const HIGH_BLOB_FEE_SNAPSHOT_LABEL = "2024-03-31 (high blob fees)";
 
 const TABLE_HEADERS = [

@@ -29,6 +29,7 @@ import {UNISWAP_ARTIFACTS} from "./artifacts/uniswap";
 import {getL1GasUsed} from "./utils/fees";
 import {wrappedHandleOps} from "./utils/userOp";
 import {GasMetrics, collectResult, writeResults} from "./utils/writer";
+import {NEXUS_ARTIFACTS} from "./artifacts/nexus";
 
 const NATIVE_INITIAL_BALANCE = parseEther("10000");
 const NATIVE_TRANSFER_AMOUNT = parseEther("0.5");

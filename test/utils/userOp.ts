@@ -7,6 +7,8 @@ import {
   WalletClient,
   concatHex,
   numberToHex,
+  pad,
+  toHex,
 } from "viem";
 import {AccountData, AccountDataV06, AccountDataV07} from "../accounts";
 import {
@@ -147,10 +149,26 @@ async function handleOpsV06(
   ]);
 }
 
+// TODO: REBUILD TO ACCEPT NONCE KEY AS PARAMETER
+
 async function handleOpsV07(
   params: HandleOpsParams<EntryPointV07>,
 ): Promise<Hex> {
-  const nonce = await params.entryPoint.read.getNonce([params.sender, 0n]);
+  //const nonce = await params.entryPoint.read.getNonce([params.sender, 0n]);
+  const validatorModuleAddress = "0x00000004171351c442B202678c48D8AB5B321E8f";
+  // Pad the validator module address to 24 bytes (right-padding)
+  const nonceKey = pad(validatorModuleAddress, {
+    size: 24,
+    dir: "left",
+  });
+
+  // Fetch the nonce from the entry point using the padded address
+  const nonce = await params.entryPoint.read.getNonce([
+    params.sender,
+    nonceKey,
+  ]);
+
+  //console.log("Nonce:", toHex(nonce));
   const packedUserOp = getUnsignedPackedUserOp({
     sender: params.sender,
     nonce,
